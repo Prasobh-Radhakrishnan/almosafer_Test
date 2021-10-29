@@ -35,7 +35,8 @@ public class StepDefination extends Utils {
 @Given("Add Place Payload with {string}  {string} {string}")
 public void add_Place_Payload_with(String name, String language, String address) throws IOException {
 	    // Write code here that turns the phrase above into concrete actions
-	
+	//testing git
+	//adding comments
 		 
 		 res=given().spec(requestSpecification())
 		.body(data.addPlacePayLoad(name,language,address));
