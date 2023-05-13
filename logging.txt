@@ -1,8 +1,8 @@
 Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Request URI:	https://ae.almosafer.com/api/cms/page
 Proxy:			<none>
 Request params:	<none>
-Query params:	key=qaclick123
+Query params:	<none>
 Form params:	<none>
 Path params:	<none>
 Headers:		Accept=*/*
@@ -11,105 +11,789 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "accuracy": 50,
-    "name": "AAhouse",
-    "phone_number": "(+91) 983 893 3937",
-    "address": "World cross center",
-    "website": "https://rahulshettyacademy.com",
-    "language": "English",
-    "location": {
-        "lat": -38.383494,
-        "lng": 33.427362
-    },
-    "types": [
-        "shoe park",
-        "shop"
+    "template": "top-airports-v2.json",
+    "country": "UAE",
+    "media": "mobile",
+    "locale": "en_us"
+}
+HTTP/1.1 200 OK
+Date: Sat, 13 May 2023 23:25:34 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-Real-IP: 86.98.55.159
+CF-Ray: 7c6ea94fbd0a2a74-CDG
+Access-Control-Allow-Origin: ae.almosafer.com
+Cache-Control: no-cache, private
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Headers: 
+Access-Control-Allow-Methods: HEAD, GET, POST, OPTIONS, PUT, DELETE
+Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 'self'; frame-ancestors https://almosafer.com https://*.almosafer.com https://z2.le.liveperson.net;
+Referrer-Policy: no-referrer-when-downgrade
+X-Adebug-host: ae.almosafer.com
+X-Adebug-port: 80
+X-Adebug-real-ip: 10.160.141.247
+X-Adebug-ruri: /api/cms/page
+X-Alimit-rpath: /api/cms/page
+X-ARuntime: 0.022
+X-AServed-By: 10.160.90.236
+X-Aus: 127.0.0.1:9002
+x-cache: hit
+X-Content-Type-Options: nosniff
+x-env-type: prod
+X-GeoIP-City: Dubai
+X-GeoIP-Country: United Arab Emirates
+X-GeoIP-Country-Code: AE
+X-GeoIP-Region: Dubai
+X-is-bot-api: 0
+x-real-client-ip: 86.98.55.159
+X-XSS-Protection: 1; mode=block
+Set-Cookie: __cf_bm=4hWKHVvbMuRxCFvM08bk9EMa5ML5AL40gPQmPrURkiI-1684020334-0-AYa79bg3rObbsk8X2o0dVlpfCVEP1e5GTHY4BOiesVVvVot410A48IaVf1WSDfucL4pOMrlShqCcqCTx0t70Qo8=; path=/; expires=Sat, 13-May-23 23:55:34 GMT; domain=.almosafer.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "origins": [
+        {
+            "id_airport": "88740",
+            "iata": "RUH",
+            "name": "King Khaled International Airport",
+            "main_city_name": "Riyadh",
+            "country_code": "SA",
+            "country_name": "Saudi Arabia",
+            "type": "2",
+            "destinations": [
+                {
+                    "id_airport": "428",
+                    "iata": "JED",
+                    "name": " King Abdulaziz International Airport",
+                    "main_city_name": "Jeddah",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "515",
+                    "iata": "DXB",
+                    "name": " Dubai Airport",
+                    "main_city_name": "Dubai",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "229",
+                    "iata": "CAI",
+                    "name": "Cairo International Airport",
+                    "main_city_name": " Cairo",
+                    "country_code": "Eg",
+                    "country_name": "Egypt",
+                    "type": "2"
+                },
+                {
+                    "id_airport": " 31",
+                    "iata": "DMM",
+                    "name": "King Fahad International Airport",
+                    "main_city_name": "Dammam",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "498",
+                    "iata": "MNL",
+                    "name": "Ninoy Aquino International Airport",
+                    "main_city_name": "Manila",
+                    "country_code": "PH",
+                    "country_name": "Philippines",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "1158",
+                    "iata": "HBE",
+                    "name": "Borg El Arab Airport",
+                    "main_city_name": "Alexandria",
+                    "country_code": "EG",
+                    "country_name": "Egypt",
+                    "type": "4"
+                },
+                {
+                    "id_airport": "713",
+                    "iata": "AHB",
+                    "name": "Abha Regional Airport",
+                    "main_city_name": " Abha ",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "3"
+                },
+                {
+                    "id_airport": "758",
+                    "iata": "KWI",
+                    "name": "Kuwait International Airport",
+                    "main_city_name": "Kuwait",
+                    "country_code": "KW",
+                    "country_name": "Kuwait",
+                    "type": "2"
+                }
+            ]
+        },
+        {
+            "id_airport": "428",
+            "iata": "JED",
+            "name": "King Abdulaziz International Airport",
+            "main_city_name": "Jeddah",
+            "country_code": "SA",
+            "country_name": "Saudi Arabia",
+            "type": "2",
+            "destinations": [
+                {
+                    "id_airport": "93490",
+                    "iata": "RUH",
+                    "name": "King Khaled International Airport",
+                    "main_city_name": "Riyadh",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "229",
+                    "iata": "CAI",
+                    "name": "Cairo International Airport",
+                    "main_city_name": " Cairo",
+                    "country_code": "Eg",
+                    "country_name": "Egypt",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "515",
+                    "iata": "DXB",
+                    "name": " Dubai Airport",
+                    "main_city_name": "Dubai",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "1158",
+                    "iata": "HBE",
+                    "name": "Borg El Arab Airport",
+                    "main_city_name": "Alexandria",
+                    "country_code": "EG",
+                    "country_name": "Egypt",
+                    "type": "4"
+                },
+                {
+                    "id_airport": " 31",
+                    "iata": "DMM",
+                    "name": "King Fahad International Airport",
+                    "main_city_name": "Dammam",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "4459",
+                    "iata": "IST",
+                    "name": "Istanbul Ataturk Airport",
+                    "main_city_name": "Istanbul",
+                    "country_code": "TR",
+                    "country_name": "Turkey",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "713",
+                    "iata": "AHB",
+                    "name": "Abha Regional Airport",
+                    "main_city_name": " Abha ",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "3"
+                },
+                {
+                    "id_airport": "498",
+                    "iata": "MNL",
+                    "name": "Ninoy Aquino International Airport",
+                    "main_city_name": "Manila",
+                    "country_code": "PH",
+                    "country_name": "Philippines",
+                    "type": "1"
+                }
+            ]
+        },
+        {
+            "id_airport": " 31",
+            "iata": "DMM",
+            "name": "King Fahad International Airport",
+            "main_city_name": "Dammam",
+            "country_code": "SA",
+            "country_name": "Saudi Arabia",
+            "type": "2",
+            "destinations": [
+                {
+                    "id_airport": "428",
+                    "iata": "JED",
+                    "name": " King Abdulaziz International Airport",
+                    "main_city_name": "Jeddah",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "4014",
+                    "iata": "RUH",
+                    "name": "King Khaled International Airport",
+                    "main_city_name": "Riyadh",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "515",
+                    "iata": "DXB",
+                    "name": " Dubai Airport",
+                    "main_city_name": "Dubai",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "229",
+                    "iata": "CAI",
+                    "name": "Cairo International Airport",
+                    "main_city_name": " Cairo",
+                    "country_code": "Eg",
+                    "country_name": "Egypt",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "586",
+                    "iata": "SHJ",
+                    "name": "Sharjah International Airport",
+                    "main_city_name": "Sharjah",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "713",
+                    "iata": "AHB",
+                    "name": "Abha Regional Airport",
+                    "main_city_name": " Abha ",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "3"
+                },
+                {
+                    "id_airport": "498",
+                    "iata": "MNL",
+                    "name": "Ninoy Aquino International Airport",
+                    "main_city_name": "Manila",
+                    "country_code": "PH",
+                    "country_name": "Philippines",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "4459",
+                    "iata": "IST",
+                    "name": "Istanbul Ataturk Airport",
+                    "main_city_name": "Istanbul",
+                    "country_code": "TR",
+                    "country_name": "Turkey",
+                    "type": "1"
+                }
+            ]
+        },
+        {
+            "id_airport": "229",
+            "iata": "CAI",
+            "name": "Cairo International Airport",
+            "main_city_name": " Cairo",
+            "country_code": "Eg",
+            "country_name": "Egypt",
+            "type": "2",
+            "destinations": [
+                {
+                    "id_airport": "428",
+                    "iata": "JED",
+                    "name": " King Abdulaziz International Airport",
+                    "main_city_name": "Jeddah",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "4014",
+                    "iata": "RUH",
+                    "name": "King Khaled International Airport",
+                    "main_city_name": "Riyadh",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "492",
+                    "iata": "ELQ",
+                    "name": "Prince Nayef bin Abdulaziz Regional Airport",
+                    "main_city_name": "Gassim",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "4"
+                },
+                {
+                    "id_airport": "3553",
+                    "iata": "YNB",
+                    "name": "Yanbu Airport",
+                    "main_city_name": "Yanbu",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "4"
+                },
+                {
+                    "id_airport": " 31",
+                    "iata": "DMM",
+                    "name": "King Fahad International Airport",
+                    "main_city_name": "Dammam",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "3331",
+                    "iata": "MED",
+                    "name": "Prince Mohammad Bin Abdulaziz International Airport",
+                    "main_city_name": "Madinah",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "3"
+                },
+                {
+                    "id_airport": "713",
+                    "iata": "AHB",
+                    "name": "Abha Regional Airport",
+                    "main_city_name": " Abha ",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "3"
+                },
+                {
+                    "id_airport": "3879",
+                    "iata": "SSH",
+                    "name": "Sharm El Sheikh Airport",
+                    "main_city_name": "Sharm el Sheikh",
+                    "country_code": "EG",
+                    "country_name": "Egypt",
+                    "type": "3"
+                }
+            ]
+        },
+        {
+            "id_airport": "3331",
+            "iata": "MED",
+            "name": "Prince Mohammad Bin Abdulaziz International Airport",
+            "main_city_name": "Madinah",
+            "country_code": "SA",
+            "country_name": "Saudi Arabia",
+            "type": "3",
+            "destinations": [
+                {
+                    "id_airport": "229",
+                    "iata": "CAI",
+                    "name": "Cairo International Airport",
+                    "main_city_name": " Cairo",
+                    "country_code": "Eg",
+                    "country_name": "Egypt",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "4014",
+                    "iata": "RUH",
+                    "name": "King Khaled International Airport",
+                    "main_city_name": "Riyadh",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "4459",
+                    "iata": "IST",
+                    "name": "Istanbul Ataturk Airport",
+                    "main_city_name": "Istanbul",
+                    "country_code": "TR",
+                    "country_name": "Turkey",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "428",
+                    "iata": "JED",
+                    "name": " King Abdulaziz International Airport",
+                    "main_city_name": "Jeddah",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "515",
+                    "iata": "DXB",
+                    "name": " Dubai Airport",
+                    "main_city_name": "Dubai",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "1"
+                },
+                {
+                    "id_airport": " 31",
+                    "iata": "DMM",
+                    "name": "King Fahad International Airport",
+                    "main_city_name": "Dammam",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "4668",
+                    "iata": "CGK",
+                    "name": "Soekarno-Hatta International Airport",
+                    "main_city_name": "Jakarta",
+                    "country_code": "ID",
+                    "country_name": "Indonesia",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "586",
+                    "iata": "SHJ",
+                    "name": "Sharjah International Airport",
+                    "main_city_name": "Sharjah",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "2"
+                }
+            ]
+        },
+        {
+            "id_airport": "492",
+            "iata": "ELQ",
+            "name": "Prince Nayef bin Abdulaziz Regional Airport",
+            "main_city_name": "Gassim",
+            "country_code": "SA",
+            "country_name": "Saudi Arabia",
+            "type": "4",
+            "destinations": [
+                {
+                    "id_airport": "229",
+                    "iata": "CAI",
+                    "name": "Cairo International Airport",
+                    "main_city_name": " Cairo",
+                    "country_code": "Eg",
+                    "country_name": "Egypt",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "428",
+                    "iata": "JED",
+                    "name": " King Abdulaziz International Airport",
+                    "main_city_name": "Jeddah",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "515",
+                    "iata": "DXB",
+                    "name": " Dubai Airport",
+                    "main_city_name": "Dubai",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "586",
+                    "iata": "SHJ",
+                    "name": "Sharjah International Airport",
+                    "main_city_name": "Sharjah",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "4014",
+                    "iata": "RUH",
+                    "name": "King Khaled International Airport",
+                    "main_city_name": "Riyadh",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "4459",
+                    "iata": "IST",
+                    "name": "Istanbul Ataturk Airport",
+                    "main_city_name": "Istanbul",
+                    "country_code": "TR",
+                    "country_name": "Turkey",
+                    "type": "1"
+                },
+                {
+                    "id_airport": " 31",
+                    "iata": "DMM",
+                    "name": "King Fahad International Airport",
+                    "main_city_name": "Dammam",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "86",
+                    "iata": "BAH",
+                    "name": "Bahrain International Airport",
+                    "main_city_name": " Bahrain",
+                    "country_code": "BH",
+                    "country_name": "Bahrain",
+                    "type": "3"
+                }
+            ]
+        },
+        {
+            "id_airport": "713",
+            "iata": "AHB",
+            "name": "Abha Regional Airport",
+            "main_city_name": " Abha ",
+            "country_code": "SA",
+            "country_name": "Saudi Arabia",
+            "type": "3",
+            "destinations": [
+                {
+                    "id_airport": "4014",
+                    "iata": "RUH",
+                    "name": "King Khaled International Airport",
+                    "main_city_name": "Riyadh",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "428",
+                    "iata": "JED",
+                    "name": " King Abdulaziz International Airport",
+                    "main_city_name": "Jeddah",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "229",
+                    "iata": "CAI",
+                    "name": "Cairo International Airport",
+                    "main_city_name": " Cairo",
+                    "country_code": "Eg",
+                    "country_name": "Egypt",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "515",
+                    "iata": "DXB",
+                    "name": " Dubai Airport",
+                    "main_city_name": "Dubai",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "1"
+                },
+                {
+                    "id_airport": " 31",
+                    "iata": "DMM",
+                    "name": "King Fahad International Airport",
+                    "main_city_name": "Dammam",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "586",
+                    "iata": "SHJ",
+                    "name": "Sharjah International Airport",
+                    "main_city_name": "Sharjah",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "2"
+                },
+                {
+                    "id_airport": " 4219",
+                    "iata": "DEL",
+                    "name": " Indira Gandhi International Airport",
+                    "main_city_name": " New Delhi",
+                    "country_code": "IN",
+                    "country_name": "India",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "1728",
+                    "iata": "DAC",
+                    "name": "Hazrat Shahjalal International Airport",
+                    "main_city_name": "Dhaka",
+                    "country_code": "BD",
+                    "country_name": "Bangladesh",
+                    "type": "2"
+                }
+            ]
+        },
+        {
+            "id_airport": "86",
+            "iata": "BAH",
+            "name": "Bahrain International Airport",
+            "main_city_name": " Bahrain",
+            "country_code": "BH",
+            "country_name": "Bahrain",
+            "type": "3",
+            "destinations": [
+                {
+                    "id_airport": "4459",
+                    "iata": "IST",
+                    "name": "Istanbul Ataturk Airport",
+                    "main_city_name": "Istanbul",
+                    "country_code": "TR",
+                    "country_name": "Turkey",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "515",
+                    "iata": "DXB",
+                    "name": " Dubai Airport",
+                    "main_city_name": "Dubai",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "3918",
+                    "iata": "SAW",
+                    "name": "Sabiha Gokcen International Airport",
+                    "main_city_name": "Istanbul",
+                    "country_code": "TR",
+                    "country_name": "Turkey",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "4668",
+                    "iata": "CGK",
+                    "name": "Soekarno-Hatta International Airport",
+                    "main_city_name": "Jakarta",
+                    "country_code": "ID",
+                    "country_name": "Indonesia",
+                    "type": "1"
+                },
+                {
+                    "id_airport": "229",
+                    "iata": "CAI",
+                    "name": "Cairo International Airport",
+                    "main_city_name": " Cairo",
+                    "country_code": "Eg",
+                    "country_name": "Egypt",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "586",
+                    "iata": "SHJ",
+                    "name": "Sharjah International Airport",
+                    "main_city_name": "Sharjah",
+                    "country_code": "AE",
+                    "country_name": "United Arab Emirates",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "4014",
+                    "iata": "RUH",
+                    "name": "King Khaled International Airport",
+                    "main_city_name": "Riyadh",
+                    "country_code": "SA",
+                    "country_name": "Saudi Arabia",
+                    "type": "2"
+                },
+                {
+                    "id_airport": "758",
+                    "iata": "KWI",
+                    "name": "Kuwait International Airport",
+                    "main_city_name": "Kuwait",
+                    "country_code": "KW",
+                    "country_name": "Kuwait",
+                    "type": "2"
+                }
+            ]
+        }
+    ],
+    "default_destinations": [
+        {
+            "id_airport": "85154",
+            "iata": "JED",
+            "name": "King Abdulaziz International Airport",
+            "main_city_name": "Jeddah",
+            "country_name": "Saudi Arabia",
+            "type": "2",
+            "country_code": "SA"
+        },
+        {
+            "id_airport": "88740",
+            "iata": "RUH",
+            "name": "King Khaled International Airport",
+            "main_city_name": "Riyadh",
+            "country_code": "SA",
+            "country_name": "Saudi Arabia",
+            "type": "2"
+        },
+        {
+            "id_airport": "515",
+            "iata": "DXB",
+            "name": "Dubai Airport",
+            "main_city_name": "Dubai",
+            "country_code": "AE",
+            "country_name": "United Arab Emirates",
+            "type": "1"
+        },
+        {
+            "id_airport": "229",
+            "iata": "CAI",
+            "name": "Cairo International Airport",
+            "main_city_name": "Cairo",
+            "country_code": "EG",
+            "country_name": "Egypt",
+            "type": "2"
+        },
+        {
+            "id_airport": "84757",
+            "iata": "DMM",
+            "name": "King Fahad International Airport",
+            "main_city_name": "Dammam",
+            "country_code": "SA",
+            "country_name": "Saudi Arabia",
+            "type": "2"
+        },
+        {
+            "id_airport": "498",
+            "iata": "MNL",
+            "name": "Ninoy Aquino International Airport",
+            "main_city_name": "Manila",
+            "country_code": "PH",
+            "country_name": "Philippines",
+            "type": "1"
+        },
+        {
+            "id_airport": "85884",
+            "iata": "HBE",
+            "name": "Borg El Arab Airport",
+            "main_city_name": "Alexandria",
+            "country_code": "EG",
+            "country_name": "Egypt",
+            "type": "4"
+        },
+        {
+            "id_airport": "85439",
+            "iata": "AHB",
+            "name": "Abha Regional Airport",
+            "main_city_name": "Abha",
+            "country_code": "SA",
+            "country_name": "Saudi Arabia",
+            "type": "3"
+        }
     ]
-}
-HTTP/1.1 200 OK
-Date: Tue, 24 Dec 2019 20:43:07 GMT
-Server: Apache/2.4.18 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 194
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "status": "OK",
-    "place_id": "e572424752c9aad5eec4fd90a8a7dd9f",
-    "scope": "APP",
-    "reference": "23160b13bbf4447770631303f2740feb23160b13bbf4447770631303f2740feb",
-    "id": "23160b13bbf4447770631303f2740feb"
-}
-Request method:	GET
-Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e572424752c9aad5eec4fd90a8a7dd9f
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-				place_id=e572424752c9aad5eec4fd90a8a7dd9f
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Date: Tue, 24 Dec 2019 20:43:11 GMT
-Server: Apache/2.4.18 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 253
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "location": {
-        "latitude": "-38.383494",
-        "longitude": "33.427362"
-    },
-    "accuracy": "50",
-    "name": "AAhouse",
-    "phone_number": "(+91) 983 893 3937",
-    "address": "World cross center",
-    "types": "shoe park,shop",
-    "website": "https://rahulshettyacademy.com",
-    "language": "English"
-}
-Request method:	POST
-Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
-Proxy:			<none>
-Request params:	<none>
-Query params:	key=qaclick123
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json; charset=UTF-8
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "place_id": "e572424752c9aad5eec4fd90a8a7dd9f"
-}
-HTTP/1.1 200 OK
-Date: Tue, 24 Dec 2019 20:43:12 GMT
-Server: Apache/2.4.18 (Ubuntu)
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Max-Age: 3600
-Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-Content-Length: 15
-Keep-Alive: timeout=5, max=100
-Connection: Keep-Alive
-Content-Type: application/json;charset=UTF-8
-
-{
-    "status": "OK"
 }

@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="APIFramework" />
+        <module name="almosafer_Test" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="APIFramework" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

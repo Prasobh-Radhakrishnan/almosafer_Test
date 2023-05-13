@@ -3,7 +3,299 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-12-24T20:43:01.782Z",
+        "start_timestamp": "2023-05-13T23:25:31.405Z",
+        "line": 10,
+        "name": "Verify the default currency is sent for all the countries",
+        "description": "",
+        "id": "validating-default-currency;verify-the-default-currency-is-sent-for-all-the-countries;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 451794200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Valid country code \"SA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SA\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefination.validCountryCode(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1658662000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"currencyListAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"currencyListAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1572799,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 249132100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"base.symbol\" in response body is \"SAR\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.symbol\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"SAR\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefination.in_response_body_is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-13T23:25:33.790Z",
+        "line": 11,
+        "name": "Verify the default currency is sent for all the countries",
+        "description": "",
+        "id": "validating-default-currency;verify-the-default-currency-is-sent-for-all-the-countries;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3076001,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Valid country code \"AE\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AE\"",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefination.validCountryCode(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 766796401,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user calls \"currencyListAPI\" with \"Get\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"currencyListAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 80299,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19170501,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"base.symbol\" in response body is \"AED\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"base.symbol\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"AED\"",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefination.in_response_body_is(String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-13T23:25:34.580Z",
+        "line": 14,
+        "name": "Verify the flight between UAE and RUH is feached when user clicks on RUH - UAE",
+        "description": "",
+        "id": "validating-default-currency;verify-the-flight-between-uae-and-ruh-is-feached-when-user-clicks-on-ruh---uae",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 229033200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The Valdid Payoad with country - \"UAE\" details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"UAE\"",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefination.theValdidPayoadWithCountryDetails(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 564715500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user calls \"post1\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"post1\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51945600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Validate origins and destinations are retrived",
+            "match": {
+              "location": "StepDefination.validateOriginsAndDestinationsAreRetrived()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeletePlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Default Currency",
+    "description": "",
+    "id": "validating-default-currency",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/defaultCurrencyValidation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-13T23:25:35.444Z",
         "line": 13,
         "name": "Verify if Place is being Succesfully added using AddPlaceAPI",
         "description": "",
@@ -13,34 +305,17 @@
         "steps": [
           {
             "result": {
-              "duration": 1557282800,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 4,
             "name": "Add Place Payload with \"AAhouse\"  \"English\" \"World cross center\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"AAhouse\"",
-                  "offset": 23
-                },
-                {
-                  "val": "\"English\"",
-                  "offset": 34
-                },
-                {
-                  "val": "\"World cross center\"",
-                  "offset": 44
-                }
-              ],
-              "location": "StepDefination.add_Place_Payload_with(String,String,String)"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 5613979500,
-              "status": "passed"
+              "duration": 12700,
+              "status": "skipped"
             },
             "line": 5,
             "name": "user calls \"AddPlaceAPI\" with \"POST\" http request",
@@ -61,8 +336,8 @@
           },
           {
             "result": {
-              "duration": 2862100,
-              "status": "passed"
+              "duration": 8499,
+              "status": "skipped"
             },
             "line": 6,
             "name": "the API call got success with status code 200",
@@ -79,8 +354,8 @@
           },
           {
             "result": {
-              "duration": 1849586100,
-              "status": "passed"
+              "duration": 6799,
+              "status": "skipped"
             },
             "line": 7,
             "name": "\"status\" in response body is \"OK\"",
@@ -101,8 +376,8 @@
           },
           {
             "result": {
-              "duration": 49595300,
-              "status": "passed"
+              "duration": 5200,
+              "status": "skipped"
             },
             "line": 8,
             "name": "\"scope\" in response body is \"APP\"",
@@ -123,24 +398,11 @@
           },
           {
             "result": {
-              "duration": 1338181500,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 9,
             "name": "verify place_Id created maps to \"AAhouse\" using \"getPlaceAPI\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"AAhouse\"",
-                  "offset": 32
-                },
-                {
-                  "val": "\"getPlaceAPI\"",
-                  "offset": 48
-                }
-              ],
-              "location": "StepDefination.verify_place_Id_created_maps_to_using(String,String)"
-            },
+            "match": {},
             "keyword": "And "
           }
         ],
@@ -150,22 +412,14 @@
           },
           {
             "name": "@Regression"
+          },
+          {
+            "name": "@test1"
           }
         ]
       },
       {
-        "start_timestamp": "2019-12-24T20:43:12.224Z",
-        "before": [
-          {
-            "result": {
-              "duration": 274300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "Hooks.beforeScenario()"
-            }
-          }
-        ],
+        "start_timestamp": "2023-05-13T23:25:35.446Z",
         "line": 17,
         "name": "Verify if Delete Place functionality is working",
         "description": "",
@@ -175,20 +429,17 @@
         "steps": [
           {
             "result": {
-              "duration": 2584700,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 19,
             "name": "DeletePlace Payload",
-            "match": {
-              "location": "StepDefination.deleteplace_Payload()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 1151503000,
-              "status": "passed"
+              "duration": 12200,
+              "status": "skipped"
             },
             "line": 20,
             "name": "user calls \"deletePlaceAPI\" with \"POST\" http request",
@@ -209,8 +460,8 @@
           },
           {
             "result": {
-              "duration": 47700,
-              "status": "passed"
+              "duration": 8400,
+              "status": "skipped"
             },
             "line": 21,
             "name": "the API call got success with status code 200",
@@ -227,8 +478,8 @@
           },
           {
             "result": {
-              "duration": 17771700,
-              "status": "passed"
+              "duration": 7600,
+              "status": "skipped"
             },
             "line": 22,
             "name": "\"status\" in response body is \"OK\"",
