@@ -12,17 +12,17 @@ Multiparts:		<none>
 Body:
 {
     "template": "top-airports-v2.json",
-    "country": "UAE",
+    "country": "ae",
     "media": "mobile",
     "locale": "en_us"
 }
 HTTP/1.1 200 OK
-Date: Sat, 13 May 2023 23:25:34 GMT
+Date: Sun, 14 May 2023 21:39:01 GMT
 Content-Type: text/html; charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
 X-Real-IP: 86.98.55.159
-CF-Ray: 7c6ea94fbd0a2a74-CDG
+CF-Ray: 7c764a9d0e4599a4-CDG
 Access-Control-Allow-Origin: ae.almosafer.com
 Cache-Control: no-cache, private
 Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
@@ -34,11 +34,11 @@ Content-Security-Policy: upgrade-insecure-requests; base-uri 'self'; object-src 
 Referrer-Policy: no-referrer-when-downgrade
 X-Adebug-host: ae.almosafer.com
 X-Adebug-port: 80
-X-Adebug-real-ip: 10.160.141.247
+X-Adebug-real-ip: 10.160.97.79
 X-Adebug-ruri: /api/cms/page
 X-Alimit-rpath: /api/cms/page
-X-ARuntime: 0.022
-X-AServed-By: 10.160.90.236
+X-ARuntime: 0.030
+X-AServed-By: 10.160.165.37
 X-Aus: 127.0.0.1:9002
 x-cache: hit
 X-Content-Type-Options: nosniff
@@ -50,7 +50,7 @@ X-GeoIP-Region: Dubai
 X-is-bot-api: 0
 x-real-client-ip: 86.98.55.159
 X-XSS-Protection: 1; mode=block
-Set-Cookie: __cf_bm=4hWKHVvbMuRxCFvM08bk9EMa5ML5AL40gPQmPrURkiI-1684020334-0-AYa79bg3rObbsk8X2o0dVlpfCVEP1e5GTHY4BOiesVVvVot410A48IaVf1WSDfucL4pOMrlShqCcqCTx0t70Qo8=; path=/; expires=Sat, 13-May-23 23:55:34 GMT; domain=.almosafer.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: __cf_bm=hf_CwuclfBwszAZbx1SxrcD9U7pHDXTu_Jm76wm6CqQ-1684100341-0-AT9NCnQ75bRjqI6K/Y4bvxGjuBRUatwStZ4MM8gT8sfH+LHOubZEpLCFaqZNWQIWUewtFT/SIfAQkU8d11X7LrM=; path=/; expires=Sun, 14-May-23 22:09:01 GMT; domain=.almosafer.com; HttpOnly; Secure; SameSite=None
 Server: cloudflare
 Content-Encoding: gzip
 alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400

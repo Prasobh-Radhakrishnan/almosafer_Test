@@ -1,10 +1,11 @@
 package pojo;
 
+import io.cucumber.datatable.dependency.com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import io.cucumber.datatable.dependency.com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.ArrayList;
-
-public class Origin {  @JsonProperty("id_airport")
+@JsonIgnoreProperties(ignoreUnknown = true)
+public class origins {  @JsonProperty("id_airport")
 public String getId_airport() {
     return this.id_airport; }
     public void setId_airport(String id_airport) {

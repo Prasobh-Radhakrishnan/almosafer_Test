@@ -3,17 +3,17 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-05-13T23:25:31.405Z",
+        "start_timestamp": "2023-05-14T21:38:59.300Z",
         "line": 10,
         "name": "Verify the default currency is sent for all the countries",
         "description": "",
-        "id": "validating-default-currency;verify-the-default-currency-is-sent-for-all-the-countries;;2",
+        "id": "validating-default-currency-and-flight-details;verify-the-default-currency-is-sent-for-all-the-countries;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 451794200,
+              "duration": 553602200,
               "status": "passed"
             },
             "line": 4,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 1658662000,
+              "duration": 1418926200,
               "status": "passed"
             },
             "line": 5,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 1572799,
+              "duration": 2011200,
               "status": "passed"
             },
             "line": 6,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 249132100,
+              "duration": 270876000,
               "status": "passed"
             },
             "line": 7,
@@ -95,21 +95,24 @@
         "tags": [
           {
             "name": "@test1"
+          },
+          {
+            "name": "@get"
           }
         ]
       },
       {
-        "start_timestamp": "2023-05-13T23:25:33.790Z",
+        "start_timestamp": "2023-05-14T21:39:01.566Z",
         "line": 11,
         "name": "Verify the default currency is sent for all the countries",
         "description": "",
-        "id": "validating-default-currency;verify-the-default-currency-is-sent-for-all-the-countries;;3",
+        "id": "validating-default-currency-and-flight-details;verify-the-default-currency-is-sent-for-all-the-countries;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3076001,
+              "duration": 2529700,
               "status": "passed"
             },
             "line": 4,
@@ -127,7 +130,7 @@
           },
           {
             "result": {
-              "duration": 766796401,
+              "duration": 432162400,
               "status": "passed"
             },
             "line": 5,
@@ -149,7 +152,7 @@
           },
           {
             "result": {
-              "duration": 80299,
+              "duration": 75100,
               "status": "passed"
             },
             "line": 6,
@@ -167,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 19170501,
+              "duration": 14725200,
               "status": "passed"
             },
             "line": 7,
@@ -191,52 +194,55 @@
         "tags": [
           {
             "name": "@test1"
+          },
+          {
+            "name": "@get"
           }
         ]
       },
       {
-        "start_timestamp": "2023-05-13T23:25:34.580Z",
+        "start_timestamp": "2023-05-14T21:39:02.016Z",
         "line": 14,
         "name": "Verify the flight between UAE and RUH is feached when user clicks on RUH - UAE",
         "description": "",
-        "id": "validating-default-currency;verify-the-flight-between-uae-and-ruh-is-feached-when-user-clicks-on-ruh---uae",
+        "id": "validating-default-currency-and-flight-details;verify-the-flight-between-uae-and-ruh-is-feached-when-user-clicks-on-ruh---uae",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 229033200,
+              "duration": 310964100,
               "status": "passed"
             },
             "line": 15,
-            "name": "The Valdid Payoad with country - \"UAE\" details",
+            "name": "The valid payload with country code - \"ae\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"UAE\"",
-                  "offset": 33
+                  "val": "\"ae\"",
+                  "offset": 38
                 }
               ],
-              "location": "StepDefination.theValdidPayoadWithCountryDetails(String)"
+              "location": "StepDefination.theValidPayloadWithCountryDetails(String)"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 564715500,
+              "duration": 483313900,
               "status": "passed"
             },
             "line": 16,
-            "name": "user calls \"post1\" with \"POST\" http request",
+            "name": "user calls \"flightList\" with \"POST\" http request",
             "match": {
               "arguments": [
                 {
-                  "val": "\"post1\"",
+                  "val": "\"flightList\"",
                   "offset": 11
                 },
                 {
                   "val": "\"POST\"",
-                  "offset": 24
+                  "offset": 29
                 }
               ],
               "location": "StepDefination.user_calls_with_http_request(String,String)"
@@ -245,7 +251,7 @@
           },
           {
             "result": {
-              "duration": 45500,
+              "duration": 38400,
               "status": "passed"
             },
             "line": 17,
@@ -263,257 +269,42 @@
           },
           {
             "result": {
-              "duration": 51945600,
+              "duration": 43850500,
               "status": "passed"
             },
             "line": 18,
-            "name": "Validate origins and destinations are retrived",
+            "name": "Validate origins \"RUH\" and destinations \"DXB\" are available in Response",
             "match": {
-              "location": "StepDefination.validateOriginsAndDestinationsAreRetrived()"
+              "arguments": [
+                {
+                  "val": "\"RUH\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"DXB\"",
+                  "offset": 40
+                }
+              ],
+              "location": "StepDefination.validateOriginsAndDestinationsAreAvailableInResponse(String,String)"
             },
             "keyword": "And "
           }
         ],
         "tags": [
           {
-            "name": "@DeletePlace"
+            "name": "@test2"
           },
           {
-            "name": "@Regression"
+            "name": "@post"
           }
         ]
       }
     ],
-    "name": "Validating Default Currency",
+    "name": "Validating Default Currency and Flight details",
     "description": "",
-    "id": "validating-default-currency",
+    "id": "validating-default-currency-and-flight-details",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/defaultCurrencyValidation.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2023-05-13T23:25:35.444Z",
-        "line": 13,
-        "name": "Verify if Place is being Succesfully added using AddPlaceAPI",
-        "description": "",
-        "id": "validating-place-api-s;verify-if-place-is-being-succesfully-added-using-addplaceapi;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 4,
-            "name": "Add Place Payload with \"AAhouse\"  \"English\" \"World cross center\"",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 12700,
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "user calls \"AddPlaceAPI\" with \"POST\" http request",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"AddPlaceAPI\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"POST\"",
-                  "offset": 30
-                }
-              ],
-              "location": "StepDefination.user_calls_with_http_request(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8499,
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "the API call got success with status code 200",
-            "match": {
-              "arguments": [
-                {
-                  "val": "200",
-                  "offset": 42
-                }
-              ],
-              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6799,
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "\"status\" in response body is \"OK\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"status\"",
-                  "offset": 0
-                },
-                {
-                  "val": "\"OK\"",
-                  "offset": 29
-                }
-              ],
-              "location": "StepDefination.in_response_body_is(String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 5200,
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "\"scope\" in response body is \"APP\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"scope\"",
-                  "offset": 0
-                },
-                {
-                  "val": "\"APP\"",
-                  "offset": 28
-                }
-              ],
-              "location": "StepDefination.in_response_body_is(String,String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 9,
-            "name": "verify place_Id created maps to \"AAhouse\" using \"getPlaceAPI\"",
-            "match": {},
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@AddPlace"
-          },
-          {
-            "name": "@Regression"
-          },
-          {
-            "name": "@test1"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2023-05-13T23:25:35.446Z",
-        "line": 17,
-        "name": "Verify if Delete Place functionality is working",
-        "description": "",
-        "id": "validating-place-api-s;verify-if-delete-place-functionality-is-working",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 19,
-            "name": "DeletePlace Payload",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 12200,
-              "status": "skipped"
-            },
-            "line": 20,
-            "name": "user calls \"deletePlaceAPI\" with \"POST\" http request",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"deletePlaceAPI\"",
-                  "offset": 11
-                },
-                {
-                  "val": "\"POST\"",
-                  "offset": 33
-                }
-              ],
-              "location": "StepDefination.user_calls_with_http_request(String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 8400,
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "the API call got success with status code 200",
-            "match": {
-              "arguments": [
-                {
-                  "val": "200",
-                  "offset": 42
-                }
-              ],
-              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7600,
-              "status": "skipped"
-            },
-            "line": 22,
-            "name": "\"status\" in response body is \"OK\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"status\"",
-                  "offset": 0
-                },
-                {
-                  "val": "\"OK\"",
-                  "offset": 29
-                }
-              ],
-              "location": "StepDefination.in_response_body_is(String,String)"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@DeletePlace"
-          },
-          {
-            "name": "@Regression"
-          }
-        ]
-      }
-    ],
-    "name": "Validating Place API\u0027s",
-    "description": "",
-    "id": "validating-place-api-s",
-    "keyword": "Feature",
-    "uri": "file:src/test/java/features/placeValidations.feature",
+    "uri": "file:src/test/java/features/almosaferApiTest.feature",
     "tags": []
   }
 ]

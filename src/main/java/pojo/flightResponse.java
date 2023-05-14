@@ -5,11 +5,11 @@ import java.util.ArrayList;
 
 public class flightResponse {
     @JsonProperty("origins")
-    public ArrayList<Origin> getOrigins() {
+    public ArrayList<pojo.origins> getOrigins() {
     return this.origins; }
-    public void setOrigins(ArrayList<Origin> origins) {
+    public void setOrigins(ArrayList<pojo.origins> origins) {
         this.origins = origins; }
-    ArrayList<Origin> origins;
+    ArrayList<pojo.origins> origins;
     @JsonProperty("default_destinations")
     public ArrayList<DefaultDestination> getDefault_destinations() {
         return this.default_destinations; }
